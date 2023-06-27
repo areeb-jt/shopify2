@@ -17,7 +17,7 @@ function onIntersection(elements, observer) {
       element.target.classList.remove(SCROLL_ANIMATION_CANCEL_CLASSNAME);
     }
   });
-}
+} 
 
 function initializeScrollAnimationTrigger(rootEl = document, isDesignModeEvent = false) {
   const animationTriggerElements = Array.from(rootEl.getElementsByClassName(SCROLL_ANIMATION_TRIGGER_CLASSNAME));
