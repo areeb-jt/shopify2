@@ -322,6 +322,11 @@
               <label for="custom-gift"> Select if you want it to wrap as a gift </label>
               <input required type="checkbox" value="yes" id="custom-gift" form="{{ product_form_id }}" name="properties[Custom Gift]" />
             </div>
+
+             <div>
+              <label for="custom-design"> Your custom design </label>
+              <input required type="file" value="yes" id="custom-design" form="{{ product_form_id }}" name="properties[Custom Gift]" />
+            </div>
             
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
