@@ -232,7 +232,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label {
-  box-shadow: 0 0 0 3px #000;
+  box-shadow: 0 0 0 2.5px #000;
   transition: box-shadow 0.2 ease;
 }
 
