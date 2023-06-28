@@ -60,7 +60,9 @@
       {% endif %}
     >
       {%- if option.name == 'Color' -%}
-    <label  style="background-image: url({{ value |  append:'.png' | file_url }}); height:20px" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label  
+      style="background-image: url({{ value |  append:'.png' | file_url }}); border-radius: 50px; height:50px" 
+      for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
     
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
