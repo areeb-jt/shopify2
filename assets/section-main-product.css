@@ -14,7 +14,7 @@
 .product__media-wrapper {
   padding-left: 0;
 }
-.product-form_input input[type=radio]:checked  {
+.product-form_input input[type=radio]:checked +label  {
 box-shadow: 0I0 0 2px #000;
 transition: box-shadow 0.2 ease;
 }
