@@ -238,7 +238,7 @@ fieldset.product-form__input .form__label {
 .product-form_input input[type=radio]+label {
 content: "";
 border-radius: 100%;
-border: 2px solid #ffffff;
+border: 3px solid #ffffff;
 position: absolute;
 z-index: 1;
 top: -1px;
