@@ -1,4 +1,9 @@
-
+{% stylesheet %}
+  h1{
+    padding:40px;
+    font-size:32px;
+  }
+{% endstylesheet %}
 <h1>{{ product.title }}</h1>
 <img src="{{ product.featured_image | img_url:"400x" }}"/> 
 {% if section.settings.show_reviews %}
@@ -23,12 +28,7 @@
   }
 {% endschema %}
 
-{% stylesheet %}
-  h1{
-    padding:40px;
-    font-size:32px;
-  }
-{% endstylesheet %}
+
 
 {% javascript %}
 {% endjavascript %}
