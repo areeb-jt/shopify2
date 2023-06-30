@@ -1,0 +1,23 @@
+<div class="page-width">
+<div class="grid">
+<div class="grid_item medium-up--five-sixths medium-up--push-one-twelfth">
+  {% if customer %}
+  <div class="section-header text-center">
+  <h1>Hi,{{ customer.first_name }}</h1>
+  <h1>{{ page.title }}</h1>
+  </div>
+  <div class="rte">
+    {{page.content }}
+  </div>
+  {% else %}
+  <div class="section-header text-center">
+  <h1>{{ page.title }}</h1>
+  </div>
+  <div class="rte">
+    <h2>Membership exclusive content.</h2>  <br><br>
+    <a> PLease login here</a>
+  </div>
+  {% endif %}
+</div>
+</div>
+</div>
