@@ -1,10 +1,25 @@
+
+<h1>{{ product.title }}</h1>
+<img src="{{ product.featured_image | image_url:"400x" }}"/>
+<h4>⭐⭐⭐⭐⭐</h4>
+
 {% schema %}
   {
     "name": "main-test-product",
-    "settings": []
+    "settings":[
+    {
+      "id":"tax_notice",
+      "type":"text",
+      "label":"tax notice"
+    },
+    {
+      "id":"show_reviews",
+      "type":"checkbox",
+      "label":"show reviews"
+    }]
   }
 {% endschema %}
-Hello from section file
+
 {% stylesheet %}
 {% endstylesheet %}
 
