@@ -55,11 +55,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e6d52275-77e4-4a22-8c5c-b4033688759b": {
+      "type": "cart-collection",
+      "settings": {
+        "title": "Featured Collection",
+        "collection": "frontpage",
+        "product_count": 5
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "336cd1ee-1100-4595-9e0e-bf981d7ec28b"
+    "336cd1ee-1100-4595-9e0e-bf981d7ec28b",
+    "e6d52275-77e4-4a22-8c5c-b4033688759b"
   ]
 }
